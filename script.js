@@ -5,7 +5,7 @@ let name = prompt('Как вас зовут?');
     if (name = 'Alex') {
         let account = prompt ('Номер счёта?');
 
-            if (account) {
+            if (account === 7777) {
                 let money = prompt('Сколько обноличить?');
 
                     if (money <= 10000) {
